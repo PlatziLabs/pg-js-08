@@ -1,15 +1,15 @@
-En este desafío tienes un array de números, usando la función map debes retornar todos los números del array multiplicados por dos.
+En este desafío vas a conectarte a una API que no existe, por ende debes capturar el error haciendo uso de `try/catch` y lanzar un error con el mensaje "API No Found"
 
 La solución debería tener un input y output como los siguientes:
 
 Input
 
 ```js
-solution([2, 4, 5, 6, 8]);
+runCode();
 ```
 
 Output
 
 ```sh
-[4,8,10,12, 16]
+Error: API No Found
 ```

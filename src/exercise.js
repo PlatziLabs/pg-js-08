@@ -1,3 +1,4 @@
-export function runCode(arrayA, arrayB) {
+export function runCode() {
   // Tu código aquí 👈
+  const url = 'https://domain-api-com';
 }
