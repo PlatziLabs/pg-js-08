@@ -1,8 +1,7 @@
 import { runCode } from "./exercise";
 
-
 describe("tests", () => {
-  it("should return Throw a error", async () => {
+  it("should throw a error", () => {
     expect(() => runCode()).rejects.toThrowError(new Error("API Not Found"));
   });
 });
