@@ -8,6 +8,7 @@ describe("tests", () => {
     } catch (error) {
       thrownError = error;
     }
-    expect(thrownError).toThrowError(new Error("API Not Found"));
+    expect(thrownError).toBeInstanceOf(Error);
+    expect(thrownError.message).toBe('API Not Found');
   });
 });
