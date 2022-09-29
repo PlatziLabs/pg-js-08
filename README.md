@@ -11,5 +11,5 @@ await runCode();
 Output
 
 ```sh
-Error: API No Found
+Error: API Not Found
 ```
